@@ -1,0 +1,30 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container__body {
+  width: 50%;
+  padding: 1rem;
+}
+
+.titulo {
+  margin-top: 2rem;
+}
+
+.about,
+.autor {
+  margin-top: 1rem;
+  font-size: 18px;
+}
+
+.network {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.network__icons {
+  width: 4rem;
+}

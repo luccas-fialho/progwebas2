@@ -1,0 +1,58 @@
+.container {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form {
+  width: 40%;
+  padding: 0 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.form__input {
+  display: flex;
+  flex-direction: column;
+}
+
+.form__input > label {
+  font-size: 18px;
+  margin-bottom: 0.3rem;
+}
+
+.form__input > input,
+.form__input > select,
+.form__input > textarea {
+  padding: 0.275rem;
+  font-size: 18px;
+  border-radius: 5px;
+}
+
+.form__actions {
+  display: flex;
+  justify-content: end;
+}
+
+.form__botao {
+  font-size: 14px;
+  border: none;
+  background-color: #4b21e5;
+  color: white;
+  border-radius: 5px;
+  padding: 0.5rem;
+  cursor: pointer;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+/* Dark Mode */
+body.dark-mode .form__input > input,
+body.dark-mode .form__input > select,
+body.dark-mode .form__input > textarea {
+  background-color: #2c2c2c;
+  color: #ffffff;
+}
